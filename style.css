@@ -79,7 +79,7 @@ h1{
     font-size: 50px;
     z-index: 5;
 }
-#arrow{
+.arrow{
     width: 20px;
     height: 15px;
     position: relative;
@@ -87,13 +87,13 @@ h1{
     margin-right: 10px;
     transition: transform 0.1s ease-out;
 }
-#arrow.rotate {
+.arrow.rotate {
     transform: rotate(180deg);
 }
-#q{
+.q{
     font-weight:300;
 }
-#q.bold{
+.q.bold{
     font-weight: bolder;
 }
 p{
